@@ -39,6 +39,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Quintity.TestFramework\Quintity.TestFramework.Core\bin\Debug\Quintity.TestFramework.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Quintity.TestFramework.Runtime">
+      <HintPath>..\..\Quintity.TestFramework\Quintity.TestFramework.Runtime\bin\Debug\Quintity.TestFramework.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,9 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Quintity.Repository\SharedFiles\AssemblyVersionInfo.cs">
-      <Link>Properties\AssemblyVersionInfo.cs</Link>
-    </Compile>
     <Compile Include="JIRAListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

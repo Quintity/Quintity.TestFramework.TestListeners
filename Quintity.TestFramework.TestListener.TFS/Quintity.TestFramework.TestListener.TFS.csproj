@@ -51,9 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Quintity.Repository\SharedFiles\AssemblyVersionInfo.cs">
-      <Link>Properties\AssemblyVersionInfo.cs</Link>
-    </Compile>
     <Compile Include="TFSListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

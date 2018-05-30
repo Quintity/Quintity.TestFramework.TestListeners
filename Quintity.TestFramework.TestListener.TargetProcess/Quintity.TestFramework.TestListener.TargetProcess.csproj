@@ -54,9 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Quintity.Repository\SharedFiles\AssemblyVersionInfo.cs">
-      <Link>Properties\AssemblyVersionInfo.cs</Link>
-    </Compile>
     <Compile Include="TargetProcessListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
