@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<TestSuite status="Active">
+  <SystemID>f3e4f0c5-f1ef-4a11-88cc-a0acb25e8c31</SystemID>
+  <UserID />
+  <Title>TestRail</Title>
+  <Author>jmoth</Author>
+  <Created>2018-08-04T11:24:53-07:00</Created>
+  <Project />
+  <Reference />
+  <FunctionalArea />
+  <Description><![CDATA[]]></Description>
+  <TestProperties />
+  <TestPreprocessor>
+    <SystemID>6354341f-0a90-428d-9e7e-62020c577408</SystemID>
+    <Title />
+    <Description><![CDATA[]]></Description>
+    <Description />
+    <Status>Incomplete</Status>
+    <IgnoreResult>False</IgnoreResult>
+    <TestType>Automated</TestType>
+    <TestAutomationDefinition>
+      <TestAssembly />
+      <TestClass />
+      <TestMethod />
+      <TestParameters />
+    </TestAutomationDefinition>
+    <OnFailure>Stop</OnFailure>
+  </TestPreprocessor>
+  <TestPostprocessor>
+    <SystemID>0eb2e805-5de3-4a36-9bce-77c1a59f1594</SystemID>
+    <Title />
+    <Description><![CDATA[]]></Description>
+    <Description />
+    <Status>Incomplete</Status>
+    <IgnoreResult>False</IgnoreResult>
+    <TestType>Automated</TestType>
+    <TestAutomationDefinition>
+      <TestAssembly />
+      <TestClass />
+      <TestMethod />
+      <TestParameters />
+    </TestAutomationDefinition>
+  </TestPostprocessor>
+  <PostProcess />
+  <TestScriptObjects>
+    <TestScriptObject type="TestCase" status="Active">
+      <SystemID>a6b8cef9-8520-4c3d-bb4f-5944a1aa56d3</SystemID>
+      <UserID />
+      <Title>Untitled test case</Title>
+      <Author>jmoth</Author>
+      <Created>2018-08-04T11:24:53-07:00</Created>
+      <FunctionalArea />
+      <Tags />
+      <Defects />
+      <KnownDefects>False</KnownDefects>
+      <Reference />
+      <OnFailure>Stop</OnFailure>
+      <Description><![CDATA[]]></Description>
+      <TestProperties />
+      <TestScriptObjects>
+        <TestScriptObject type="TestStep" status="Active" testType="Automated">
+          <SystemID>a1767546-84ff-41e0-ab93-0847031c05e3</SystemID>
+          <UserID />
+          <Title>Untitled test step</Title>
+          <ExpectedTestVerdict>Pass</ExpectedTestVerdict>
+          <AlwaysExecute>False</AlwaysExecute>
+          <Iterations>1</Iterations>
+          <Description><![CDATA[]]></Description>
+          <ExpectedBehaviour><![CDATA[]]></ExpectedBehaviour>
+          <TestAutomationDefinition>
+            <TestAssembly>[TestAssemblies]\Quintity.TestFramework.TestListeners.Tests.dll</TestAssembly>
+            <TestClass>Quintity.TestFramework.TestListeners.Tests.TestRailRestApi</TestClass>
+            <TestMethod>GetProjects</TestMethod>
+            <TestParameters>
+              <TestParameter>
+                <DisplayName>TestRail Url</DisplayName>
+                <Name>url</Name>
+                <TypeAsString>System.String</TypeAsString>
+                <ValueAsString>[TestRailUrl]</ValueAsString>
+              </TestParameter>
+              <TestParameter>
+                <DisplayName>User name</DisplayName>
+                <Name>userName</Name>
+                <TypeAsString>System.String</TypeAsString>
+                <ValueAsString>[TestRailUser]</ValueAsString>
+              </TestParameter>
+              <TestParameter>
+                <DisplayName>User password</DisplayName>
+                <Name>password</Name>
+                <TypeAsString>System.String</TypeAsString>
+                <ValueAsString>[TestRailPassword]</ValueAsString>
+              </TestParameter>
+            </TestParameters>
+          </TestAutomationDefinition>
+        </TestScriptObject>
+      </TestScriptObjects>
+    </TestScriptObject>
+  </TestScriptObjects>
+  <FilePath>[TestSuites]\TestRail.ste</FilePath>
+</TestSuite>

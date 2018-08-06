@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestPropertyCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Quintity.TestFramework.Core">
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestHome</Name>
+    <Description>Default test home location</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">C:\DevProjects\Quintity\Repos\Quintity.TestFramework.TestListeners\Quintity.TestFramework.TestListeners.Test</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestProperties</Name>
+    <Description>Default test properties location</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestProperties</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestSuites</Name>
+    <Description>Default test suites location</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestSuites</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestAssemblies</Name>
+    <Description>Default test assemblies location</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\bin\Debug</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestData</Name>
+    <Description>Default test data location</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestData</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestOutput</Name>
+    <Description>Default test output location.</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestOutput</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestResults</Name>
+    <Description>Default test results location.</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestResults</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestGolds</Name>
+    <Description>Default test golds location.</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestGolds</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty i:type="TestSystemProperty">
+    <Name>TestConfigs</Name>
+    <Description>Default test configuration files (e.g., test listener configs, test profile configs, etc.)</Description>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">[TESTHOME]\TestConfigs</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty>
+    <Name>TestRailUrl</Name>
+    <Description i:nil="true" />
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">https://quintity.testrail.io</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty>
+    <Name>TestRailUser</Name>
+    <Description i:nil="true" />
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">AutomationUser@quintity.com</Value>
+    <Active>true</Active>
+  </TestProperty>
+  <TestProperty>
+    <Name>TestRailPassword</Name>
+    <Description i:nil="true" />
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">P@ssw0rd!</Value>
+    <Active>true</Active>
+  </TestProperty>
+</TestPropertyCollection>

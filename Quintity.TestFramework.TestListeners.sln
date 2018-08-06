@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quintity.TestFramework.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quintity.TestFramework.TestListener.Example", "Quintity.TestFramework.TestListener.Example\Quintity.TestFramework.TestListener.Example.csproj", "{C7D30C3C-18B1-4532-B44F-782C3429E8F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quintity.TestFramework.TestListener.TestRail", "Quintity.TestFramework.TestListener.TestRail\Quintity.TestFramework.TestListener.TestRail.csproj", "{6D965D3A-71CB-46BC-9709-B3FE5D303BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quintity.TestFramework.TestListeners.Tests", "Quintity.TestFramework.TestListeners.Test\Quintity.TestFramework.TestListeners.Tests.csproj", "{38FDAA75-0154-4AA1-8CD9-9DD832286D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{C7D30C3C-18B1-4532-B44F-782C3429E8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D30C3C-18B1-4532-B44F-782C3429E8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D30C3C-18B1-4532-B44F-782C3429E8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D965D3A-71CB-46BC-9709-B3FE5D303BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D965D3A-71CB-46BC-9709-B3FE5D303BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D965D3A-71CB-46BC-9709-B3FE5D303BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D965D3A-71CB-46BC-9709-B3FE5D303BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FDAA75-0154-4AA1-8CD9-9DD832286D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FDAA75-0154-4AA1-8CD9-9DD832286D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FDAA75-0154-4AA1-8CD9-9DD832286D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FDAA75-0154-4AA1-8CD9-9DD832286D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
